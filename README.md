@@ -1,4 +1,21 @@
-# Syna Start
+# Marine Predator Group - UW
+
+## Notes on modifying and deploying MPG website:
+
+The code here is used to generate the website http://depts.washington.edu/marinepredators
+
+### Instructions for website modification:
+  * Fork the repo
+  * Make changes to the md files in the content folder or the config file (see Syna info below for help)
+  * Add and commit changes
+  * Make a pull request with changes noted and tag @camrinbraun
+
+### Updating group publications - not yet functional
+  * To update/populate publications with we are using https://github.com/sourcethemes/academic-admin.
+    * If not installed-- create a conda environment and run: `pip3 install -U academic`. When installed you can run: `academic import --bibtex static/pubs/publications.bib`
+    * This will populate the `/content/publication/` folder with a folder for each new publication. Please check the `index.md` within that folder to check key words, abstract, etc.
+
+# Notes on Syna Theme
 
 This is a sample project that can be used to jump start your Syna project. It uses Syna theme and Hugo with sample files that introduce two simple pages, one for landing and one for the about page.
 

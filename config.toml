@@ -1,7 +1,7 @@
 # Site settings
-baseurl = "/"
+baseurl = "https://depts.washington.edu/marinepredators/"
 languageCode = "en-us"
-title = "Okkur - Syna"
+title = "Marine Predators Group"
 theme = "syna"
 enableGitInfo = true
 version = "0.15.2"
@@ -17,8 +17,8 @@ date = ["date", "lastmod"]
 lastmod = ["lastmod", ":git", "date"]
 
 [params]
-  name = "Okkur Labs"
-  description = "Open Source Theme for your next project"
+  name = "Marine Predators Group"
+  description = "Research group at University of Washington"
 
   [params.style]
     #background = "secondary"
@@ -26,10 +26,10 @@ lastmod = ["lastmod", ":git", "date"]
   # Theme customizations
   # Assets relative to 'static/'
   [params.custom]
-    favicon = "favicon.ico"
+    favicon = "shark_fin-512-hex.ico"
     favicon_ico_sizes = "16x16 32x32"
-    favicon_png = "favicon.png"
-    favicon_svg = "favicon.svg"
+    favicon_png = "shark_fin-512-hex.png"
+    favicon_svg = "shark_fin-512-hex.svg"
 
   # Piwik tracking
   [params.analytics.piwik]
@@ -46,7 +46,8 @@ lastmod = ["lastmod", ":git", "date"]
     pro = false
 
   [params.colors]
-    primary = "#00838F"
+    #primary = "#00838F"
+    primary = "#0145B1"
     secondary = "#868e96"
     success = "#008f54"
     info = "#00c9dc"
@@ -58,20 +59,41 @@ lastmod = ["lastmod", ":git", "date"]
 # main/prepend/postpend menus are displayed in nav fragment.
 # Keep an eye out for updates. These will be moved out to make navbar more
 # configurable.
-[[menu.main]]
-  url = "/"
-  name = "Home"
-  weight = 10
 
 [[menu.main]]
-  url = "/about"
-  name = "About Us"
+  url = "#"
+  name = "Home"
+  weight = 1
+  
+[[menu.main]]
+  url = "#items"
+  name = "Research"
+  weight = 10
+ 
+[[menu.main]]
+  url = "#member"
+  name = "People"
   weight = 20
 
 [[menu.main]]
-  url = "#contact"
-  name = "Contact"
+  url = "publications"
+  name = "Publications"
   weight = 30
+
+[[menu.main]]
+  url = "https://github.com/marine-predators-group"
+  name = "Open science"
+  weight = 40
+
+[[menu.main]]
+  url = "prospectives"
+  name = "Join us"
+  weight = 50
+
+[[menu.main]]
+  url = "#copyright"
+  name = "Contact"
+  weight = 60
 
 [[menu.footer]]
   url = "#"
@@ -88,24 +110,24 @@ lastmod = ["lastmod", ":git", "date"]
   name = "Tiny Link"
   weight = 30
 
-[[menu.copyright_footer]]
-  url = "/about"
-  name = "About Us"
-  weight = 10
+#[[menu.copyright_footer]]
+#  url = "/about"
+#  name = "About Us"
+#  weight = 10
 
-[[menu.copyright_footer]]
-  url = "#"
-  name = "Another Link"
-  weight = 30
+#[[menu.copyright_footer]]
+#  url = "mailto:marinepredators@uw.edu"
+#  name = "Contact"
+#  weight = 30
 
-[[menu.footer_social]]
-  weight = 20
-  name = "facebook"
-  pre = "fab fa-facebook-f"
-  url = "#"
+#[[menu.footer_social]]
+#  weight = 20
+#  name = "facebook"
+#  pre = "fab fa-facebook-f"
+#  url = "#"
 
-[[menu.footer_social]]
-  weight = 30
-  name = "linkedin"
-  pre = "fab fa-linkedin-in"
-  url = "#"
+#[[menu.footer_social]]
+#  weight = 30
+#  name = "linkedin"
+#  pre = "fab fa-linkedin-in"
+#  url = "#"
