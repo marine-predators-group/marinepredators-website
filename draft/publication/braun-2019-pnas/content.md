@@ -1,0 +1,13 @@
+---
+title: "Mesoscale eddies release pelagic sharks from thermal constraints to foraging in the ocean twilight zone"
+date: 2019-01-01
+publishDate: 2019-12-14T19:20:11.953861Z
+authors: ["Camrin D. Braun", "Peter Gaube", "Tane H. Sinclair-Taylor", "Gregory B. Skomal", "Simon R. Thorrold"]
+publication_types: ["2"]
+abstract: "Mesoscale eddies are critical components of the ocean's “internal weather” system. Mixing and stirring by eddies exerts significant control on biogeochemical fluxes in the open ocean, and eddies may trap distinctive plankton communities that remain coherent for months and can be transported hundreds to thousands of kilometers. Debate regarding how and why predators use fronts and eddies, for example as a migratory cue, enhanced forage opportunities, or preferred thermal habitat, has been ongoing since the 1950s. The influence of eddies on the behavior of large pelagic fishes, however, remains largely unexplored. Here, we reconstruct movements of a pelagic predator, the blue shark (Prionace glauca), in the Gulf Stream region using electronic tags, earth-observing satellites, and data-assimilating ocean forecasting models. Based on textgreater2,000 tracking days and nearly 500,000 high-resolution time series measurements collected by 15 instrumented individuals, we show that blue sharks seek out the interiors of anticyclonic eddies where they dive deep while foraging. Our observations counter the existing paradigm that anticyclonic eddies are unproductive ocean “deserts” and suggest anomalously warm temperatures in these features connect surface-oriented predators to the most abundant fish community on the planet in the mesopelagic. These results also shed light on the ecosystem services provided by mesopelagic prey. Careful consideration will be needed before biomass extraction from the ocean twilight zone to avoid interrupting a key link between planktonic production and top predators. Moreover, robust associations between targeted fish species and oceanographic features increase the prospects for effective dynamic ocean management."
+featured: false
+publication: "*Proceedings of the National Academy of Sciences of the United States of America*"
+tags: ["Marine predator", "Mesopelagic", "Oceanographic model", "Remote sensing", "Satellite telemetry"]
+doi: "10.1073/pnas.1903067116"
+---
+

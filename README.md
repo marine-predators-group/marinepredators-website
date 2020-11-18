@@ -36,19 +36,24 @@ git submodule update
 
 ## Usage
 
-To start your website run the following commands:
+To start the website and make local changes you can observe in real-time, run the following command:
 
 **Development**:
 ```
 $ hugo server -D # This command starts the Hugo server and watches the site directory for changes.
 ```
 
+Once you're happy with the changes, they can be pushed into production like:
+
 **Production**:
 ```
 $ hugo # This command generates the static website in the public/ directory. If you do not have a site, then it gives errors about missing layout files.
 ```
 
-> Prerequisites: Go, Hugo
+**Posting**;
+
+Finally the changes need to go to the server (done only by @camrinbraun). This is done by pushing the /public folder to the website directory on the server with an FTP client.
+
 
 ## Directory Structure
 

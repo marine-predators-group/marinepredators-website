@@ -1,0 +1,9 @@
+NOTES FOR WEBSITE ADDITIONS/UPDATES
+
+- fix favicon
+- check site name has been fixed and no longer includes "syna"
+- add publications
+- add diversity statement and fix links on prospective page
+- add home button to menu
+- photo credit to home page swordfish photo
+- update/improve research text
